@@ -1,0 +1,288 @@
+<html>
+<!DOCTYPE html>
+
+<head>
+ 
+    <style>
+        body {
+            min-width: 290px;
+            color: #4d4e53;
+            background-color: #FFB6C1;
+            font-family: "Open Sans", Arial, sans-serif;
+            line-height: 1.5;
+        }
+
+        #navbar {
+            position: fixed;
+            min-width: 290px;
+            top: 0px;
+            left: 0px;
+            width: 300px;
+            height: 100%;
+            border-right: solid;
+            border-color: rgba(0, 22, 22, 0.4);
+        }
+
+        header {
+            color: black;
+            margin: 10px;
+            text-align: center;
+            font-size: 1.8em;
+            font-weight: thin;
+        }
+
+        #main-doc header {
+            text-align: left;
+            margin: 0px;
+        }
+
+        #navbar ul {
+            height: 230px;
+            padding: 0;
+            overflow-y: auto;
+            overflow-x: hidden;
+            background-color: #800000;
+        }
+
+        #navbar li {
+            color: #4d4e53;
+            border-top: 1px solid;
+            list-style: none;
+            position: relative;
+            width: 100%;
+        }
+
+        #navbar a {
+            display: block;
+            padding: 10px 30px;
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+    
+        }
+
+        #main-doc {
+            position: absolute;
+            margin-left: 310px;
+            padding: 20px;
+            margin-bottom: 110px;
+        }
+
+        section article {
+            color: #4d4e53;
+            margin: 15px;
+            font-size: 0.96em;
+        }
+
+        section li {
+            margin: 15px 0px 0px 20px;
+        }
+
+        code {
+            display: block;
+            text-align: left;
+            white-space: pre;
+            position: relative;
+            word-break: normal;
+            word-wrap: normal;
+            line-height: 2;
+            background-color: #f7f7f7;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+
+        @media only screen and (max-width: 815px) {
+
+            /* For mobile phones: */
+            #navbar ul {
+                border: 1px solid;
+                height: 207px;
+            }
+
+            #navbar {
+                background-color: white;
+                position: absolute;
+                top: 0;
+                padding: 0;
+                margin: 0;
+                width: 100%;
+                max-height: 275px;
+                border: none;
+                z-index: 1;
+                border-bottom: 2px solid;
+            }
+
+            #main-doc {
+                position: relative;
+                margin-left: 0px;
+                margin-top: 270px;
+            }
+        }
+
+        @media only screen and (max-width: 400px) {
+            #main-doc {
+                margin-left: -10px;
+            }
+
+            code {
+                margin-left: -20px;
+                width: 100%;
+                padding: 15px;
+                padding-left: 10px;
+                padding-right: 45px;
+                min-width: 233px;
+            }
+        }
+
+        #navbar a:hover {
+            background-color: #B22222;
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <nav id="navbar">
+        <header>The Classroom Portal</header>
+        <ul>
+            <li><a class="nav-link" href="#English_Level_One">English Level One</a></li>
+            <li><a class="nav-link" href="#English_Level_Two">English Level Two</a></li>
+            <li><a class="nav-link" href="#English_Level_Three">English Level Three</a></li>
+            <li><a class="nav-link" href="#Stem:_Learn_To_Code">Stem: Learn To Code</a></li>
+            <li><a class="nav-link" href="#The_Teacher_Portal">The Teacher Portal</a></li>
+        </ul>
+    </nav>
+
+
+
+
+    <main id="main-doc">
+        <section class="main-section" id="English_Level_One">
+            <header>English Level One</header>
+            <article> Designed in 2017 to help students to use this open-source learning platform, so it can be impletmented in Japanese schools. Both teachers and students can easily access to these digital worksheets and other interactive activities. They can be used in the classroom or at home. Here are some examples:
+                <p>
+                <ul>
+                    <li>Lesson 1-01: <a href="https://eigoganbare.com/wp-content/uploads/2016/12/1-01-I-am-You-are.pdf"
+                            target="_blank">I am ~. You are ~.</a></li>
+                    <li>Lesson 1-02: <a href="https://eigoganbare.com/wp-content/uploads/2016/12/1-02-Are-you.pdf"
+                            target="_blank">Are you ~. Are you from ~.</a></li>
+                    <li>Lesson 1-03: <a href="https://eigoganbare.com/wp-content/uploads/2016/12/1-03-This-is-my.pdf"
+                            target="_blank">This is my ~. That is your ~.</a></li>
+                    <li>Lesson 1-04: <a href="https://eigoganbare.com/wp-content/uploads/2016/12/1-04-Is-this.pdf"
+                            target="_blank">Is this ~. Is that ~.</a></li>
+                    <li>Lesson 1-05: <a href="https://eigoganbare.com/wp-content/uploads/2016/12/1-05-He-is.pdf"
+                            target="_blank">He/She is ~.</a></li>
+
+                </uL>
+                </p>
+                <p>
+                    <code>Popular JHS English textbooks used in Japan are:
+                        <br> 1. New Horizon 2. New Crown 3. Sunshine
+        </code>
+                </p>
+            </article>
+        </section>
+
+        <section class="main-section" id="English_Level_Two">
+            <header>English Level Two</header>
+            <article>Designed in 2017 to help students to use this open-source learning platform, so it can be impletmented in Japanese schools. Both teachers and students can easily access to these digital worksheets and other interactive activities. They can be used in the classroom or at home. Here are some examples:
+
+                <p>
+                <ul>
+                    <li>Lesson 2-01: <a
+                            href="https://eigoganbare.com/wp-content/uploads/2016/12/2-01-Einstein-was-a-scientist.pdf"
+                            target="_blank">Einstein was a ~.</a></li>
+                    <li>Lesson 2-02: <a
+                            href="https://eigoganbare.com/wp-content/uploads/2016/12/2-02-He-was-using-the.pdf"
+                            target="_blank">He was ~ing the ~.</a></li>
+                    <li>Lesson 2-03: <a
+                            href="https://eigoganbare.com/wp-content/uploads/2016/12/2-03-Doraemon-looks.pdf"
+                            target="_blank">Doraemon looks ~.</a></li>
+                    <li>Lesson 2-04: <a href="https://eigoganbare.com/wp-content/uploads/2016/12/2-04-I-am-going-to.pdf"
+                            target="_blank">I am going to ~.</a></li>
+                    <li>Lesson 2-05: <a
+                            href="https://eigoganbare.com/wp-content/uploads/2016/12/2-05-Please-give-me.pdf"
+                            target="_blank">Please give me ~.</a></li>
+
+                </uL>
+                </p>
+                <code>Popular JHS English textbooks used in Japan are:
+                    <br> 1. New Horizon 2. New Crown 3. Sunshine
+        </code>
+                <p></p>
+            </article>
+        </section>
+
+        <section class="main-section" id="English_Level_Three">
+            <header>English Level Three</header>
+            <article>Designed in 2017 to help students to use this open-source learning platform, so it can be impletmented in Japanese schools. Both teachers and students can easily access to these digital worksheets and other interactive activities. They can be used in the classroom or at home. Here are some examples:
+
+                <p>
+                <ul>
+                    <li>Lesson 3-01: <a
+                            href="https://eigoganbare.com/wp-content/uploads/2016/12/3-01-Was-it-made-by.pdf"
+                            target="_blank">Was it made by ~.</a></li>
+                    <li>Lesson 3-02: <a
+                            href="https://eigoganbare.com/wp-content/uploads/2016/12/3-02-It-makes-me-happy.pdf"
+                            target="_blank">It makes me ~.</a></li>
+                    <li>Lesson 3-03: <a
+                            href="https://eigoganbare.com/wp-content/uploads/2016/12/3-03-Would-you-like-Yes-please.pdf"
+                            target="_blank">Would you like ~? Yes, please.</a></li>
+                    <li>Lesson 3-04: <a
+                            href="https://eigoganbare.com/wp-content/uploads/2016/12/3-04-This-ball-is-used-in.pdf"
+                            target="_blank">This ~ is used in ~.</a></li>
+                    <li>Lesson 3-05: <a
+                            href="https://eigoganbare.com/wp-content/uploads/2016/12/3-05-How-long-For-Since.pdf"
+                            target="_blank">How long ~. For / Since ~.</a></li>
+
+                </uL>
+                </p>
+                <code>Popular JHS English textbooks used in Japan are:
+                    <br> 1. New Horizon 2. New Crown 3. Sunshine
+        </code>
+                <p></p>
+                </p>
+            </article>
+        </section>
+
+        <section class="main-section" id="Stem:_Learn_To_Code">
+            <header>Stem: Learn To Code</header>
+            <article>Started in 2020, so Japanese students can experience and discover CODING. They can one day become future innovators. As for teachers, they can teach while learning a new skill.
+                <p>
+                    <code>Use classroom TECHNOLOGY as a "tool". 
+                        <br>function greetMe(yourName) { alert("Hello " + yourName); }
+          greetMe("World");
+        </code>
+                </p>
+            </article>
+        </section>
+
+        <section class="main-section" id="The_Teacher_Portal">
+            <header>The Teacher Portal</header>
+            <article>Orginally started in 2015 for Japanese Teachers of English and Assistant Teachers to access teaching materials. Overtime, it included additional resources. 
+                <code>Vocabs & Reading | Grammar | Speaking Practice & Go Abroad on J-LEAP<br><br>and much more!
+                    <br>Message to You: English is difficult, but you can do it!
+                </code>
+                <p><strong>Pen Pal Project: </strong>A pen pal project gives students the opportunity to exchange letters abroad and make new friends. They can communicate through writing and learn about the world outside of their own. Through that experience, the motivation for Japanese students to study English increases because they can understand the benefits of learning a foreign language, as well... </p>
+                <p><strong>English Club: </strong>If so, that's great! Because having one in your school makes a big difference and can be influential to others. It can further enhance the English education in Japan, promote a better understanding of the diverse cultures in Western countries, and provide club members with valuable...</p>
+                <p><strong>Interactive Class Games: </strong>These are editable PowerPoint templates that can be used for classroom team-teaching. Feel free to engage your...</p>
+                <p><strong>Speaking Practice: </strong>The goal aims to take out the mindset and pressure of "testing". Instead, offer something that relates to the students' school/life, learn about cultural diversity, and help gain their ability to interact with...</p>
+                <p><strong>JLPT Resources: </strong>These are JLPT resources to help you to communicate with your Japanese co-workers and to make you a better-qualified ALT. Hence, giving the importance and beneficial merits of having a team-teaching program...</p>
+                <p><strong>Classic Eigo Ganbare: </strong>Eigo Ganbare started in 2010!! Check out what it looked like back then.</p>
+                <p><strong>Contribute: </strong>Would you like to help out?</p>
+                <p>The main website is <a href="https://eigoganbare.com" target="_blank">Eigo Ganbare</a>.</p>
+                <p></p>
+                <p></p>
+            </article>
+        </section>
+
+
+    </main>
+    <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</body>
+
+</html>
